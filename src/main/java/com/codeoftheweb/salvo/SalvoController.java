@@ -235,6 +235,8 @@ public class SalvoController {
         //return dto;
         return new ResponseEntity<>(dto, HttpStatus.OK);
     }
+
+    //Para el comit2
 //    private Map<String, Object> gameViewDTO(GamePlayer gamePlayer){
 //        Map<String, Object> dto = new LinkedHashMap<String, Object>();
 //        dto.put("id", gamePlayer.getId());
