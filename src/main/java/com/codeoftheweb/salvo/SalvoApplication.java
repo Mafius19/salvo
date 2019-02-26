@@ -321,7 +321,8 @@ class WebSecurityConfiguration extends GlobalAuthenticationConfigurerAdapter {
                     .passwordParameter("pwd")
                     .loginPage("/api/login");
 
-
+            //Agregar luego el usuario ADMIN
+            
             http.logout().logoutUrl("/api/logout");
             // turn off checking for CSRF tokens
             http.csrf().disable();
